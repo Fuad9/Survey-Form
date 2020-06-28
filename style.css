@@ -1,0 +1,124 @@
+#backgr {
+  background-image: url(https://thumbs.dreamstime.com/b/scenic-nature-landscape-path-near-lake-forest-path-tunnel-trees-near-lake-scenic-nature-autumn-landscape-panorama-view-115358410.jpg);
+  background-attachment: fixed;
+  color: black;
+  }
+
+#title {
+  text-align: center;
+}
+#description {
+  text-align: center;
+  font-style: italic;
+}
+#survey-form {
+  display: block;
+  border-width: 2px;
+  border-style: solid;
+  background-color: rgba(138, 43, 226, 0.8);
+  border-radius: 8px;
+  margin: auto;
+  padding: 2.5rem;
+  width: 60%;
+  line-height: 1;
+  }
+#name-label {
+  font-weight: bold;
+}
+#name {
+  width: 100%;
+  height: 30px;
+  border-radius: 6px;
+}
+#a {
+  display: block;
+  margin: auto;
+  padding: 0.25rem;
+  width: 70%;
+}
+#email-label {
+  font-weight: bold;
+}
+#email {
+  width: 100%;
+  height: 30px;
+  border-radius: 6px;
+}
+#b {
+  display: block;
+  margin: auto;
+  width: 70%;
+}
+#number-label {
+  font-weight: bold;
+}
+#number {
+  width: 100%;
+  height: 30px;
+  border-radius: 6px;
+}
+#i {
+  display: block;
+  margin: auto;
+  width: 70%;
+}
+#institution-label {
+  font-weight: bold;
+}
+#institution {
+  width: 100%;
+  height: 30px;
+  border-radius: 6px;
+}
+#c {
+  display: block;
+  margin: auto;
+  width: 70%;
+}
+#dropdown-label {
+  font-weight: bold;
+}
+#dropdown {
+  width: 100%;
+  height: 35px;
+  border-radius: 6px;
+}
+#d {
+  display: block;
+  margin: auto;
+  width: 70%;
+}
+#radio-label {
+  font-weight: bold;
+  display: block;
+  margin: auto;
+  width: 70%;
+}
+#checkbox {
+  font-weight: bold;
+  display: block;
+  margin: auto;
+  width: 70%;
+}
+#textarea {
+  font-weight: bold;
+  display: block;
+  margin: auto;
+  width: 70%;
+}
+#e {
+  width: 100%;
+  height: 90px;
+  border-radius: 6px;
+}
+#submit {
+  font-weight: bold;
+  display: block;
+  margin: auto;
+  width: 70%;
+  background-color: red;
+  color: white;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 6px;
+}
