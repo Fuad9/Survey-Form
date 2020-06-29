@@ -2,41 +2,66 @@
 <html lang="en">
 <head>
     <title>Document</title>
-    <style>
-        .a {
-            border: 2px solid rgb(184, 197, 184);
-            width: 30%;
-            margin: 1%;
-            display: inline-block;
-            position: relative;
-         }
-        .b {
-            border: 2px solid rgb(184, 197, 184);
-            width: 30%;
-            margin: 1%;
-            display: inline-block;
-            position: absolute;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
-    <div class="a">
-        <h3>I luv my country</h3>
-        <p>The name of my country is Bangladesh</p>
-    </div>
-    <div class="b">
-        <h3>I luv my country</h3>
-        <p>The name of my country is Bangladesh</p>
-    </div>
-    <div class="c">
-        <h3>I luv my country</h3>
-        <p>The name of my country is Bangladesh</p>
-    </div>
-    <div class="c">
-        <h3>I luv my country</h3>
-        <p>The name of my country is Bangladesh</p>
-    </div>
+    <h1 id="title">Web developer Survey Form</h1>
+<p id="description">Please spend some time to take part in this Survey</p>
+
+<form id="survey-form">
+  <div id="a"><label id="name-label">Your Name</label><br>
+    <input id="name" placeholder="Enter your name" required></div><br><br>
+  <div id="b"><label id="email-label">Your Email</label><br>
+    <input id="email" placeholder="Enter your email" required></div><br><br>
+  <div id="c"><label id="number-label">Your Age</label><br>
+    <input type="number" id="number" placeholder="Age" min="25" max="80"></div><br><br>
+ 
+  <div id="d">
+  <label id="dropdown-label">Which option best describe your current status?</label><br>
+  <select id="dropdown">
+    <option value="Select Current Status">Select Current Status</option>
+    <option value="Full stack web developer">Full stack web developer</option>
+    <option value="Front End Developer">Front End Developer</option>
+    <option value="Back End Developer">Back End Developer</option>
+    <option value="Other">Other</option>
+    </select>
+  </div><br><br>
+  <div id="radio-label">  
+    <label>What is satisfaction level as a web developer?</label><br>
+    <input type="radio" id="f" value="Very Satisfied" checked>
+    <label for="f">Very Satisfied</label><br>
+    <input type="radio" id="g" value="Moderately Satisfied">
+    <label for="g">Moderately Satisfied</label><br>
+    <input type="radio" id="h" value="Not Satisfied">
+    <label for="h">Not Satisfied</label>
+  </div><br><br>
+  
+  <div id="d">
+  <label id="dropdown-label">What is your future goal?</label><br>
+  <select id="dropdown">
+    <option value="Select an option">Select an option</option>
+    <option value="Web Developer Hero">Web Developer Hero</option>
+    <option value="Cyber Security Specialist">Cyber Security Specialist</option>
+    <option value="Not set yet">Not set yet</option>
+    </select>
+  </div><br><br>
+  
+  <div id="checkbox">
+    <label>Your Favourite Programming Language (Check all that apply)</label><br>
+    <label for="Javascript"><input type="checkbox" id="Javascript" value="Javascript" name="fav-projects">Javascript</input><br>
+    <label for="Python"><input type="checkbox" id="Python" value="Python" name="fav-projects">Python</input><br>
+    <label for="Java"><input type="checkbox" id="Java" value="Java" name="fav-projects">Java</input><br>
+    <label for="C"><input type="checkbox" id="C" value="C" name="fav-projects">C</input><br>
+    <label for="C++"><input type="checkbox" id="C++" value="C++" name="fav-projects">C++</input><br><br>
+    
+    <div id="textarea">
+      <label>Please Note Down Your Opinion</label>
+      <textarea name="opinion" id="e" placeholder="Enter your opinion here..."></textarea>
+    </div><br>
+    <button type="submit" id="submit">Submit</button>
+    
+   </form>
 </body>
 </html>
 
